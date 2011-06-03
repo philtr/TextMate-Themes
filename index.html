@@ -9,32 +9,19 @@
   <style type="text/css">
     body {
       margin: 2em;
-      background-color: #aaa;
+      background-color: #fcfcfc;
       font-size: 100%;
       font-family: Arial, Helvetica, sans-serif;
-      color: #000000;
-    }
-    #container, figure img {
-      margin: 0 auto;
+      color: #444;
     }
     figure {
-      display: block;
-      position: relative;
-      text-align: center;
-      overflow: hidden;
-      margin-bottom: 20px;
-      padding: 10px;
-      background: #fff;
-      -moz-border-radius: 5px;
-      -webkit-border-radius : 5px;
-      -webkit-background-clip: padding-box;
       -webkit-margin-start: 0px;
       -webkit-margin-end: 0px;
     }
     figure img {
       display: block;
       position: relative;
-      border: 2px solid #222;
+      border: 2px solid #555;
       max-width: 1355px;
       width: 100%;
     }
@@ -43,19 +30,19 @@
       position: relative;
       text-align: left;
       font-size: 2.4em;
-      color: #000000;
       font-weight: bold;
       margin-bottom: 0;
       line-height: 2.4em;
     }
     figcaption a {
+      display: block;
+      float: left;
+      margin-right: .5em;
       text-decoration: none;
       font-weight: bold;
     }
-    figcaption a:hover {
-      color: #f60;
-    }
-    h1 { font-size: 3.8em; color: #fff; margin-bottom: 3px; }
+    figcaption a:hover { color: #f60; }
+    h1 { font-size: 3.8em; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
     nav ul { padding: 0; }
     nav li {
@@ -64,7 +51,6 @@
       display: inline-block;
       _display: inline;
       width: 220px;
-      color: #039;
       font-weight: 900;
       margin-bottom: 1px;
     }
@@ -74,8 +60,8 @@
         text-decoration: none;
         position:relative;
         display: block;
-        color: #fff;
-        background: #bbb;
+        color: #555;
+        background: #eee;
         font-weight: 300;
         padding: 4px;
         border: solid 1px  #ccc;
@@ -86,7 +72,7 @@
       }
       nav li a:hover {
         background: #f60;
-        border-color: #f60;
+        border-color: #e50;
         color: #fff;
       }
 
@@ -103,10 +89,10 @@
 </head>
 
 <body>
-  <div id="container">
+  <div id="container top">
     <h1>TextMate Themes</h1>
+    <p>This is a crowd-sourced collection of TextMate themes.</p>
     <nav>
-      <div id="top"></div>
       <ul>
         <li><a title="[ Agronaut ]" href="#agronaut">[ Agronaut ]</a></li>
         <li><a title="Active4D" href="#active4d">Active4D</a></li>
