@@ -1,2 +1,2 @@
-h2. "Screenshots of themes":http://inkdeep.github.com/TextMate-Themes/
+h2. "Screenshots of themes":http://phillipridlen.com/TextMate-Themes/
 
